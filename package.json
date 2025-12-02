@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "npx prisma generate --schema ./prisma-pc04-database/schema.prisma && npx prisma generate --schema ./prisma-pc75-database/schema.prisma",
-    "dev": "npx tsx --no-deprecation main.ts"
+    "dev": "npx tsx main.ts"
   },
   "keywords": [],
   "author": "",
