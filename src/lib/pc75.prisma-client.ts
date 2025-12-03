@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { PrismaClient } from "../../prisma-pc75-database/pc75-database-client-types/client";
+import { PrismaClient } from "../prisma-pc75-database/pc75-database-client-types/client";
 import { PrismaMssql } from "@prisma/adapter-mssql";
 
 const sqlConfig = {
